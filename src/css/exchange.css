@@ -1,0 +1,263 @@
+img{
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.white-background{
+    background-color: white;
+}
+.navbar .left .icon{
+    color: white;
+}
+.navbar-color{
+	background-color: #2BB8AA;
+}
+.navbar-wrapper{
+	padding: 10px 0;
+}
+.navbar-title{
+	font-family: 微软雅黑;
+	color: white;
+	text-align: center;
+	left: 150px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.box{
+}
+.topmenu{
+	height: 71px;
+	margin-top: 44px;
+	background-color: #ffffff;
+}
+.topmenu span{
+	float: left;
+    width: 33%;
+    height: 69px;
+    text-align: center;
+    color: #999;
+    line-height: 69px;
+}
+.topmenu span i{
+    font-size: 36px;
+}
+.topmenu span.cht-on{
+	color: #81C563;
+    border-bottom: 2px solid #81C563;
+}
+.friendslist{
+	margin: 0;
+	display: none;
+}
+.ct-on{
+	display: block;
+}
+.friend{
+	height: 70px;
+	border-bottom: 1px solid #e7ebee;
+	border-top: none;
+}
+.friend img{
+	float: left;
+	margin: 15px;
+	border-radius: 50%;
+	width: 40px;
+	vertical-align: middle;
+}
+.friend p{
+	font-weight: 600;
+    font-size: 15px;
+    color: #597a96;
+    display: inline-block;
+    margin: 0;
+    padding: 15px 0 0;
+    float: left;
+    width: 220px
+}
+.friend p strong{
+	font-weight: 600;
+    font-size: 15px;
+    color: #597a96;
+}
+.friend p span{
+	font-size: 12px;
+    font-weight: 400;
+    color: #aab8c2;
+    line-height: 26px;
+}
+.friend .status{
+	background: #26c281;
+    border-radius: 50%;
+    width: 9px;
+    height: 9px;
+    position: absolute;
+    top: 31px;
+    right: 17px;
+    display: inline-block;
+}
+.friend .available{
+	background-color: #26c281;
+}
+.friend .away{
+	background-color: #ffce54;
+}
+.friend .status.inactive {
+    background: #eaeef0;
+}
+#search{
+	width: 100%;
+	background: url(../img/exchange/search.png) -11px 0 no-repeat #e3e9ed;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
+#searchfield {
+    background: #e3e9ed;
+    margin: 21px 0 0 55px;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #8198ac;
+}
+/*对话窗口*/
+.chatview{
+	margin-top: 40px;
+    height: 55%; 
+    padding-bottom: 0;
+    background: white;
+}
+@media screen and (min-device-height:736px)
+{
+    .chatview{
+    height: 60%; 
+}
+}
+@media screen and (max-device-height:600px)
+{
+    .chatview{
+    height: 48%; 
+}
+}
+#profile {
+    height: 153px;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background: url(../img/exchange/timeline1.png) no-repeat;
+    background-size: 100% 100%;
+    margin-top: 44px;
+}
+.bot-img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #FFF;
+    border-radius: 50%;
+    margin: 30px auto 6px;
+    overflow: hidden;
+}
+/*聊天记录样式*/
+#chat-messages{
+	/*margin-bottom: 180px;*/
+}
+#chat-messages label {
+    color: #aab8c2;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    margin: 15px 0;
+    width: 290px;
+    display: block;
+    font-family: none;
+}
+#chat-messages .item{
+    width: 90%;
+    height: 105px;
+    padding-left: 20px;
+}
+#chat-messages .item img{
+    float: left;
+    border-radius: 50%;
+    width: 30px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.bubble{
+    background: #f0f4f7;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 12px 13px;
+    border-radius: 5px 5px 5px 0;
+    color: #8495a3;
+    position: relative;
+    float: left;
+    line-height: 18px;
+    max-width: 75%;
+}
+.bubble span{
+    color: #aab8c2;
+    font-size: 11px;
+    bottom: -22px;
+    right: 0;
+    position: absolute;
+    font-family: none;
+}
+#chat-messages .item.right img{
+    float: right;
+    margin-right: 0;
+}
+#chat-messages .item.right .bubble{
+    float: right;
+}
+#sendmessage{
+    overflow: hidden;
+    border-radius: 6px;
+    height: 60px;
+    border-top: 1px solid #e7ebee;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 100;
+}
+#sendmessage input {
+    background: #fff;
+    margin: 21px 0 0 21px;
+    border: none;
+    padding: 0;
+    font-size: 14px;
+    font-weight: 400px;
+    color: #aab8c2;
+}
+#sendmessage button {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: 23px;
+    border: none;
+}
+.questions-box .status{
+    top: 75px;
+}
+
+.margin-left-50{
+    margin-left: 50px;
+}
+.margin-top-100{
+    margin-top: 100px;
+}
+.margin-top-200{
+    margin-top: 200px;
+}

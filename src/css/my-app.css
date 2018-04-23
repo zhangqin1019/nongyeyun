@@ -1,0 +1,44 @@
+@charset "utf-8";
+/*
+Theme Name: 联合众思后台框架
+Theme URI:--
+Description:公共样式
+Version: 1.0 Beta
+Author: kkyukui@163.com
+Author URI:
+*/
+
+/* #################### 主控制 ##################### */
+p{padding: 0;margin: 0;}
+ol,ul {list-style:none;}
+caption,th {text-align:left;}
+img a {border: none;}
+*{font-family: "微软雅黑";}
+.fixed:after,.article_from li:after,.pop_from li:after,.form_list li:after {content: "."; display: block; height: 0; clear: both; visibility: hidden;}
+.fixed,.article_from li,.pop_from li,.form_list li {zoom:1;}
+
+.navbar{background-color: #81c563;}
+.navbar .center{color: #FFF;font-weight: normal;}
+.bg-index{background: url(../img/bg_index.jpg) no-repeat;background-size: 100% 100%;}
+.hex {float: left;margin-right: -44px;margin-bottom: -60px;transform:scale(0.8,0.8);
+-ms-transform:scale(0.8,0.8); /* Internet Explorer */
+-moz-transform:scale(0.8,0.8); /* Firefox */
+-webkit-transform:scale(0.8,0.8); /* Safari 和 Chrome */
+-o-transform:scale(0.8,0.8);}
+.hex .left {float: left;width: 0;border-right: 30px solid #81c563;border-top: 52px solid transparent;border-bottom: 52px solid transparent;}
+.hex .middle {float: left;width: 60px;height: 104px;background: #81c563;}
+.hex .right {float: left;width: 0;border-left: 30px solid #81c563;border-top: 52px solid transparent;border-bottom: 52px solid transparent;}
+.hex.even {margin-top: 44px;}
+.display-none{width: 120px;height: 104px;}
+.color-w .middle{background-color: rgba(255,255,255,0.2);}
+.color-w .left{border-right: 30px solid rgba(255,255,255,0.2);}
+.color-w .right{border-left: 30px solid rgba(255,255,255,0.2);}
+.con-c{width: 350px;margin: 0 auto;}
+.hex-btn{display: block;position: absolute;top: 0;left: 50%;margin-left: -39px;text-align: center;width: 80px;height: 62px;padding-top: 10px;font-size: 16px;color: #FFF;}
+.menur-box-img{padding-top: 42px;}
+.menur-box-txt{padding: 0 10px;}
+.menur-box-txt h2{line-height: 40px;font-size: 20px;color: #333;text-align: center;margin: 0;}
+.menur-box-txt p{font-size: 14px;color: #999;line-height: 26px;text-indent: 2em;}
+.bg-a{background: url(../img/questions/bg_a.png) no-repeat;background-size: 100% 100%;}
+.bg-b{background: url(../img/questions/bg_b.png) no-repeat;background-size: 100% 100%;}
+.panel{background-color: #f2f2f2;}

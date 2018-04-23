@@ -1,0 +1,15 @@
+/*右划菜单*/
+.slide-menu{height: 100%;width: 100%;background: #f2f2f2;}
+.slide-menu-title{line-height: 60px;padding-left: 20px;background-color: #FFF;position: relative;}
+.slide-menu-title h3{color: #81c563;font-size: 1.2rem;font-weight: normal;font-family: "微软雅黑";margin: 0;padding: 0;}
+.slide-menu-title i{font-size: 30px;color: #81c563;position: absolute;right: 10px;top:0px;}
+.silde-menu-ul{display: block;margin: 0;padding: 0;}
+.silde-menu-ul li{width: 50%;float: left;}
+.silde-menu-ul li a{height: 134px;display: block;text-align: center;padding-top: 16px;border-right: 1px solid #FFF;border-bottom: 1px solid #FFF;}
+.silde-menu-ul li a.selected{background-color: #81c563;}
+.silde-menu-ul li a.selected p{color: white;}
+.silde-menu-ul li p{width: 100%;left: 0px;color: rgb(102, 102, 102);font-weight: 400;font-family: 微软雅黑;backface-visibility: hidden;transition: color 0.2s;text-align: center;font-style: normal;font-weight: normal;}
+.silde-menu-ul li a i{font-size: 60px;color: #666;}
+.silde-menu-ul li a.selected i{color: #FFF;}
+.show-menu{overflow: hidden;color: #FFF;}
+.show-menu i{font-size: 26px;}

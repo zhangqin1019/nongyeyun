@@ -1,0 +1,26 @@
+/*public*/
+.navbar-inner{width: 100%;position:absolute;top:0;left: 0;z-index: 3;}
+.navbar .center-sliding{font-size: 18px;font-family: "微软雅黑"; color: #FFF;line-height: 45px;}
+.conlist{width: 100%; height: 100%; padding-top: 20px;background-color: #FFF;}
+/*about*/
+.conlist .content-block-tittle{ background:url(../img/bg_index.jpg) no-repeat 0 bottom;background-size: 100% auto;}
+.conlist .content-block{margin: 0;}
+.conlist .content-block-tittle h1{margin: 0 auto;font-size: 40px;color: #FFF;line-height: 35vh;text-align: center;font-weight: normal;font-family: "Open Sans",sans-serif;}
+.conlist .content-block .content-block-inner p{width:90%;max-width: 800px;margin: 0 auto;font-size: 14px; line-height: 2;color: #78626a;}
+
+/*用户登录*/
+.conlist .content-block-pic{width: 130px;height: 130px;margin: 44px auto 20px; border: 6px solid #FFF;border-radius: 50%;}
+.conlist .content-block-pic .img{width: 130px;height: 130px;border-radius: 50%;}
+.conlist .login-input{width: 80%;height: 42px;margin: 0 auto 20px;background: #000;opacity: .5;border: 0;border-radius: 21px;}
+.conlist .login-input input{background: 0 0;width: 90%;line-height: 40px;font-size: 14px; color: #FFF;border: 0;padding: 0 10px;}
+.conlist .login-input input:focus{transition:border linear .2s,box-shadow linear .3s;-moz-transition:border linear .2s,-moz-box-shadow linear .2s;-webkit-transition:border linear .2s,-webkit-box-shadow linear .5s;outline:none;border-color:rgba(0,181,81,1);box-shadow:0 0 8px rgba(93,149,242,.75);-moz-box-shadow:0 0 8px rgba(93,149,242,.5);-webkit-box-shadow:0 0 8px rgba(93,149,242,3);}
+.conlist .login-btn{display: block; width: 80%;height: 42px; margin: 0 auto ;font-size: 16px;line-height: 42px;text-align: center;color: #FFF;background: #81c563; border: 0;border-radius: 21px;}
+.conlist .login-btn:hover{opacity: .9; }
+/*设置*/
+.conlist .set-list{margin-top: 22px;}
+.conlist .set-item{display: block;position: relative;padding: 0 10px; height: 48px; line-height: 48px;font-size: 14px;font-family:'微软雅黑';color: #81c563;border-bottom: 1px solid #81c563;}
+.conlist .set-item i{position: absolute;top: 6px;right: 10px;font-size: 18px;color: #81c563;}
+.conlist .set-item .iconfont{font-family: iconfont !important;font-style: normal;-webkit-font-smoothing: antialiased;-webkit-text-stroke-width: .2px;}
+.content-block p{font-size: 14px;line-height: 26px;text-indent: 2em;padding: 20px 10px 0 10px;}
+
+
